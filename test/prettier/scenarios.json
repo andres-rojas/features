@@ -4,5 +4,14 @@
         "features": {
             "prettier": {}
         }
+    },
+    "plugin": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "prettier": {
+                "version": "latest",
+                "plugins": "prettier-plugin-ini"
+            }
+        }
     }
 }
